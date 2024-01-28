@@ -1,0 +1,42 @@
+.container{
+  margin: 0px;
+}
+/* article */
+.col-4{
+  /* border: 1px solid black; */
+  height: 600px;
+  padding: 10px;
+  
+}
+.img-row{
+  height: 170px; 
+  /* border: 1px solid blue; */
+
+}
+.deatails-data{
+  padding: 10px;
+  /* border: 1px solid blue; */
+
+}
+/* page */
+.main-article-box{
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 1200px;
+  margin-top: 89px;
+}
+.box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* footer */
+.gap-footer{
+  margin-top: 57px;
+}
+.main-div{
+  margin-top: 59px;
+}
+.d-flex{
+  margin-top: 59px;
+}
