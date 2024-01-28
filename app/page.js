@@ -10,11 +10,11 @@ import Search from "./Search";
 import { articles_datas } from "./data.js";
 import React, { useState } from 'react';
 
-export default function Home() {
+const Page = () => {
     const [articles, setMovies] = useState(articles_datas)
-    // const articlesdata = () => {
-    //     setMovies(articlesdata)
-    // }
+    const articlesdata = () => {
+        setMovies(articlesdata)
+    }
 
     return (
         <>
@@ -22,7 +22,7 @@ export default function Home() {
                 <Header />
                 <Search />
                 <div className='main-article-box'>
-                    <div className=' flex-container  box'>
+                    <div className=' flex-container box'>
                         {articles.map(movie => (
                             <Articles
                                 title={movie.name}
@@ -39,3 +39,4 @@ export default function Home() {
         </>
     );
 }
+export default Page;
