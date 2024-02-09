@@ -1,42 +1,85 @@
-.container{
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+* {
   margin: 0px;
 }
-/* article */
-.col-4{
-  /* border: 1px solid black; */
-  height: 600px;
-  padding: 10px;
-  
-}
-.img-row{
-  height: 170px; 
-  /* border: 1px solid blue; */
 
-}
-.deatails-data{
-  padding: 10px;
-  /* border: 1px solid blue; */
-
-}
 /* page */
-.main-article-box{
+.main-article-box {
   /* border: 1px solid red; */
-  margin: auto;
-  width: 1200px;
-  margin-top: 89px;
+  /* margin: auto; 
+  width: 1200px; */
+  /* margin-top: 89px; */
 }
-.box{
-  display: flex;
-  flex-wrap: wrap;
+
+/* Header Page */
+
+@media (min-width: 768px) {
+  .row-1 {
+    height: 32px;
+  }
+  .row-2 {
+    font-size:84px;
+    text-align: center;
+  }
+}
+@media  (max-width: 600px) {
+  .row-2 {
+    font-size: 50px; 
+    text-align: center;
+    
+  }
+}
+.line1 {
+  border-top: 1px solid black;
+}
+.line2 {
+  border-top: 1px solid black;
+  margin-top: 5px;
 }
 
 /* footer */
-.gap-footer{
+.main-div {
+  margin-top: 59px;
+}
+.line3 {
+  border-top: 1px solid black;
+  margin-top: 59px;
+}
+.footer-text {
+  text-align: center;
+  margin-top: 59px;
+}
+.gap-footer {
   margin-top: 57px;
 }
-.main-div{
-  margin-top: 59px;
+
+/* Articale page */
+.paddingall {
+  /* padding: 30px; */
+  /* border: 1px solid red; */
+  /* margin: ; */
 }
-.d-flex{
-  margin-top: 59px;
+
+
+/* Check Page */
+.col-sm {
+  border: 1px solid red;
+  height: 398px;
 }
+
+.container-1 {
+  /* border: 1px solid red; */
+  height: 400px;
+  margin-top: 100px;
+}
+
+/* Search pege */
+.gap-div-search {
+  height: 89px;
+}
+.input-btn{
+  justify-content: center;
+}
+
+
