@@ -22,11 +22,47 @@ const Page = () => {
         <>
             <Header />
             <div className='container'>  
-                {/* <Header /> */}
+                
                 <Search />
+                {/* <div className='main-article-box'>
+                    <div className='flex-container box row '>
+                        <div className="tops-news" style={{marginLeft:'',color:'red'}}>TOPS NEWS FROM INDIA</div>
+                        {articles.map(news=> (
+                            <div key={news.id} className='col-sm-12 col-md-4 '>
+                                <Articles
+                                    title={news.name}
+                                    desc={news.description}
+                                    image={news.url}
+                                    language={news.language}
+                                    country={news.country}
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </div> */}
                 <Check/>
             </div>
-            <Footer/>
+           
+
+          
+
+            {/* <div className='main-article-box'>
+                    <div className='flex-container box row '>
+                        <div className="tops-news" style={{marginLeft:'',color:'red'}}>TOPS NEWS FROM INDIA</div>
+                        {articles.map(news=> (
+                            <div key={news.id} className='col-sm-12 col-md-4 '>
+                                <Articles
+                                    title={news.name}
+                                    desc={news.description}
+                                    image={news.url}
+                                    language={news.language}
+                                    country={news.country}
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </div> */}
+                <Footer/>
 
         </>
     );

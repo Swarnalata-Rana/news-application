@@ -14,25 +14,43 @@
 
 /* Header Page */
 
+/* .container{
+  width: 940px;
+
+} */
 @media (min-width: 768px) {
-  .row-1 {
-    height: 32px;
-  }
-  .row-2 {
-    font-size:84px;
+  .header {
+    font-size: 84px;
     text-align: center;
+    font-family: "Inknut Antiqua";
+    margin-top: 32px;
+  }
+  .container{
+    width: 940px;
+
   }
 }
-@media  (max-width: 600px) {
-  .row-2 {
-    font-size: 50px; 
-    text-align: center;
+@media (max-width: 600px) {
+  .container{
+    width:365px;
     
   }
+  .header {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Inknut Antiqua";
+    margin-top: 40px;
+
+  }
 }
+.logo {
+  margin-top: -15px;
+}
+
 .line1 {
   border-top: 1px solid black;
 }
+
 .line2 {
   border-top: 1px solid black;
   margin-top: 5px;
@@ -42,14 +60,17 @@
 .main-div {
   margin-top: 59px;
 }
+
 .line3 {
   border-top: 1px solid black;
   margin-top: 59px;
 }
+
 .footer-text {
   text-align: center;
   margin-top: 59px;
 }
+
 .gap-footer {
   margin-top: 57px;
 }
@@ -65,9 +86,14 @@
 /* Check Page */
 .col-sm {
   border: 1px solid red;
-  height: 398px;
+  height:408px;
 }
-
+.check-main-box{
+  margin-top: 89px;
+}
+.empty-box{
+  margin-top: 40px;
+}
 .container-1 {
   /* border: 1px solid red; */
   height: 400px;
@@ -75,11 +101,31 @@
 }
 
 /* Search pege */
-.gap-div-search {
-  height: 89px;
-}
-.input-btn{
+
+.input-btn {
   justify-content: center;
+  margin-top: 89px;
 }
+.search-icon{
+  height: 32px;
+  width: 60px;
+  position: relative;
+  left: 45px;
+  margin-top: 15px;
 
+}
+.search-bar {
+  width: 267px;
+  height: 60px;
+  border: 1px solid #d1c4c4;
+  padding: 29px;
 
+}
+.go-btn {
+  width: 61px;
+  height: 60px;
+  background-color: #E84848;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
