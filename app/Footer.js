@@ -4,7 +4,11 @@ const Footer = () => {
     return (
         <>
             <div className='line3'></div>
-            <div className='footer-text'>NewsAPI<img src="red-logo-small.png" class="" alt="show" height='px' width='px'/>Org is not responsible for the content of external sites</div>
+            <div className='footer-text'>
+                <div className=''>NewsAPI<img src="red-logo-small.png" class="" />Org </div>
+                <div>is not responsible for the content of external sites</div>
+            </div>
+
             <div className='gap-footer'></div>
         </>
     )

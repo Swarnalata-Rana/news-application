@@ -1,38 +1,24 @@
 import React from 'react'
-import EastIcon from '@mui/icons-material/East';
-import { padding } from '@mui/system';
 
 const Articles = (props) => {
 
     return (
         <>
-            {/* <div class="col-4 ">
-                <div className='img-row '  >
-                    <img src={props.image} alt="" style={{ height: 170, width:376 }} />
-                </div>
-                <div className='deatails-data f-3'>
-                    <h5>Title:</h5>
-                    <h3>{props.title}</h3>
-                    <h5>Description:</h5>
-                    <p> {props.desc} </p>
-                    <h5>Language:{props.language}</h5>
-                    <h5>Country:{props.country}</h5>
-                </div>
-                <a href='read-data'>Read full article <EastIcon/> </a>
-            </div> */}
-            <div className=" paddingall" >
-                <div className='img-row'>
-                    <img src={props.image} alt="" style={{ height: 170, width: 300 }} />
-                </div>
-                <div className='details-data ' style={{width:'300px', padding:'0px'}}>
-                    <h5>Title:</h5>
-                    <h3>{props.title}</h3>
-                    <h5>Description:</h5>
-                    <p>{props.desc}</p>
-                    <h5>Language: {props.language}</h5>
-                    <h5>Country: {props.country}</h5>
-                </div>
-                <a href='read-data'>Read full article <EastIcon /> </a>
+            <div className='check-main-box'>TOP NEWS FROM INDIA</div>
+            <div class="row empty-box">
+                <div class="col-sm">One</div>
+                <div class="col-sm">Two</div>
+                <div class="col-sm">Three</div>
+            </div>
+            <div class="row empty-box">
+                <div class="col-sm">Four</div>
+                <div class="col-sm">Five</div>
+                <div class="col-sm">Six</div>
+            </div>
+            <div class="row empty-box">
+                <div class="col-sm">Seven</div>
+                <div class="col-sm">Eight</div>
+                <div class="col-sm">Nine</div>
             </div>
         </>
     )
