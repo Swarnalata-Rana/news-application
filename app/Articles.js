@@ -7,13 +7,11 @@ const Articles = () => {
     const [articles, setMovies] = useState(articles_datas)
 
     return (
-
         <>
             <div className='check-main-box'>TOP NEWS FROM INDIA</div>
-
             <div className='row'>
-                {articles.map((articles, index) => (
-                    <div key={index} className='col-sm-4'>
+                {articles.map((articles) => (
+                    <div key={articles} className='col-sm-4'>
                         <Articles_grid
                             title={articles.name}
                             desc={articles.description}

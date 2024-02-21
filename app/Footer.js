@@ -8,7 +8,6 @@ const Footer = () => {
                 <div className=''>NewsAPI<img src="red-logo-small.png" class="" />Org </div>
                 <div>is not responsible for the content of external sites</div>
             </div>
-
             <div className='gap-footer'></div>
         </>
     )
