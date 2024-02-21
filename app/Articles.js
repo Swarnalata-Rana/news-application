@@ -1,24 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react';
+import Articles_grid from './Articles_grid.js';
+import { articles_datas } from "./data.js";
 
-const Articles = (props) => {
+
+const Articles = () => {
+    const [articles, setMovies] = useState(articles_datas)
 
     return (
+
         <>
             <div className='check-main-box'>TOP NEWS FROM INDIA</div>
-            <div class="row empty-box">
-                <div class="col-sm">One</div>
-                <div class="col-sm">Two</div>
-                <div class="col-sm">Three</div>
-            </div>
-            <div class="row empty-box">
-                <div class="col-sm">Four</div>
-                <div class="col-sm">Five</div>
-                <div class="col-sm">Six</div>
-            </div>
-            <div class="row empty-box">
-                <div class="col-sm">Seven</div>
-                <div class="col-sm">Eight</div>
-                <div class="col-sm">Nine</div>
+
+            <div className='row'>
+                {articles.map((articles, index) => (
+                    <div key={index} className='col-sm-4'>
+                        <Articles_grid
+                            title={articles.name}
+                            desc={articles.description}
+                            image={articles.url}
+                            language={articles.language}
+                            country={articles.country}
+                        />
+                    </div>
+                ))}
             </div>
         </>
     )

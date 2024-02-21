@@ -12,6 +12,7 @@
   }
   .container{
     width: 940px;
+    /* display: flex; */
 
   }
   /* .footer-text {
@@ -93,7 +94,7 @@
   height: 32px;
   width: 32px;
   position: absolute;
-  margin-left: -130px;
+  margin-left: -140px;
   margin-top: 15px;
 
 }
@@ -102,7 +103,7 @@
   height: 60px;
   font-size: 20px;
   border: 1px solid #d1c4c4;
-  margin-left:20px;
+  /* margin-left:20px; */
   padding-left: 45px;
 
 }
@@ -115,3 +116,7 @@
   border: none;
 }
 
+.box{  
+  display: flex;
+  flex-wrap: wrap;
+}
