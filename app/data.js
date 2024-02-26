@@ -1,4 +1,4 @@
-export const articles_datas = [
+export const articles_data = [
     {
         id: "0",
         name: "Echoes of Defeat: A Personal Reflection on India",

@@ -1,21 +1,18 @@
-'use client'
-// import React, { useState } from 'react';
+// 'use client'
 import Header from "./Header";
 import Search from "./Search";
 import Footer from "./Footer";
 import Articles_grid from './Articles_grid';
 
-
 const Page = () => {
-
     return (
         <>
-            <Header />
+            <Header/>
             <div className='container'>
-                <Search />
-                <Articles_grid />
+                <Search/>
+                <Articles_grid/>
             </div>
-            <Footer />
+            <Footer/>
         </>
     );
 }

@@ -1,8 +1,8 @@
 import React from 'react'
-import { articles_datas } from './data'
+import { articles_data } from './data'
 
-const Articles_news = (index) => {
-  const article = articles_datas[index];
+const Article = (index) => {
+  const article = articles_data[index];
 
   return (
       <div key={article.id} className="col-sm">
@@ -17,5 +17,5 @@ const Articles_news = (index) => {
           </div>
       </div>
   );
-};
-export default Articles_news;
+};p;
+export default Article ;
