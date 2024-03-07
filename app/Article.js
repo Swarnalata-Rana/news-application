@@ -17,5 +17,5 @@ const Article = (index) => {
           </div>
       </div>
   );
-};p;
+};
 export default Article ;
