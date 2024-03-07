@@ -1,21 +1,23 @@
-import React from 'react'
-import { articles_data } from './data'
+"use client"
+import React from 'react';
+import EastIcon from '@mui/icons-material/East';
 
-const Article = (index) => {
-  const article = articles_data[index];
 
+const Article = ({ props }) => {
   return (
-      <div key={article.id} className="col-sm">
-          <div>
-              <img src={article.url} />
-          </div>
-          <div>
-              <h3>{article.name}</h3>
-              <p>{article.description}</p>
-              {/* <p>Language: {article.language}</p>
-              <p>Country: {article.country}</p> */}
-          </div>
+    <div key={props.id} className="col-sm">
+      <div className='h4-tag'>
+        <img src={props.url} alt={props.name} />
       </div>
+      <div>
+        <h3 className='h4-tag'>{props.name}</h3>
+        <p className='paragrap'>{props.description}</p>
+      </div>
+      <span className='read-article'>Read full article </span>
+      <a className='arrow'><EastIcon/></a>
+
+    </div>
   );
-};p;
-export default Article ;
+};
+
+export default Article;

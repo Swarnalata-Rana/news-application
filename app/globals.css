@@ -3,6 +3,7 @@
 * {
   margin: 0px;
 }
+
 @media (min-width: 768px) {
   .header {
     font-size: 84px;
@@ -10,22 +11,26 @@
     font-family: "Inknut Antiqua";
     margin-top: 32px;
   }
-  .container{
+
+  .container {
     width: 940px;
     /* display: flex; */
 
   }
+
   /* .footer-text {
     margin-top: 59px;
     display: flex;
     justify-content: center;
   } */
 }
+
 @media (max-width: 600px) {
-  .container{
-    width:365px;
-    
+  .container {
+    width: 365px;
+
   }
+
   .header {
     font-size: 50px;
     text-align: center;
@@ -37,13 +42,16 @@
 .logo {
   margin-top: -15px;
 }
+
 .line1 {
   border-top: 1px solid black;
 }
+
 .line2 {
   border-top: 1px solid black;
   margin-top: 5px;
 }
+
 /* footer */
 .main-div {
   margin-top: 59px;
@@ -64,18 +72,23 @@
   margin-top: 57px;
 }
 
-/* Check Page */
+/* Article Page */
 .col-sm {
-  border: 1px solid rgb(14, 13, 13);
-  height:408px;
+  /* border: 1px solid rgb(14, 13, 13); */
+  height: 388px;
+  width: 250px;
+
 }
-.check-main-box{
+
+.check-main-box {
   margin-top: 89px;
   color: red;
 }
-.empty-box{
+
+.empty-box {
   margin-top: 40px;
 }
+
 .container-1 {
   /* border: 1px solid red; */
   height: 400px;
@@ -84,20 +97,23 @@
 
 /* Search pege */
 .main-input-btn {
-  margin-top: 89px;
+  margin-top: 50px;
 }
-.input-btn{
+
+.input-btn {
   display: flex;
   justify-content: center;
 }
-.search-icon{
+
+.search-icon {
   height: 32px;
   width: 32px;
   position: absolute;
-  margin-left: -140px;
+  margin-left: -278px;
   margin-top: 15px;
 
 }
+
 .search-bar {
   width: 267px;
   height: 60px;
@@ -107,6 +123,7 @@
   padding-left: 45px;
 
 }
+
 .go-btn {
   width: 61px;
   height: 60px;
@@ -116,7 +133,45 @@
   border: none;
 }
 
-.box{  
+.box {
   display: flex;
   flex-wrap: wrap;
+}
+
+.image {
+  width: 250px;
+  height: 130px;
+}
+
+.h4-tag {
+  color: var(--Dark, #3C3030);
+  font-family: "Inknut Antiqua";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 21.6px */
+  letter-spacing: -0.72px;
+  width: 250px;
+  margin-top: 16px;
+
+}
+
+.paragrap {
+  /* font-size: 16px; */
+  width: 250px;
+  color: var(--Dark, #3C3030);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+}
+.read-article {
+  text-decoration: none;
+  color: black;
+  /* color: var(--Dark, #3C3030); */
+font-family: "Inria Sans";
+}
+.arrow{
+  color: #E84848;
 }
