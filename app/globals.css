@@ -1,52 +1,35 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
-
 * {
   margin: 0px;
 }
-
 @media (min-width: 768px) {
   .header {
     font-size: 84px;
     text-align: center;
-    font-family: "Inknut Antiqua";
+    font-family: "Iowan Old Style";
     margin-top: 32px;
   }
-
   .container {
     width: 940px;
-    /* display: flex; */
-
   }
-
-  /* .footer-text {
-    margin-top: 59px;
-    display: flex;
-    justify-content: center;
-  } */
 }
-
 @media (max-width: 600px) {
-  .container {
-    width: 365px;
-
-  }
-
   .header {
     font-size: 50px;
     text-align: center;
-    font-family: "Inknut Antiqua";
+    font-family: "Iowan Old Style ";
     margin-top: 40px;
   }
+  .container {
+    width: 365px;
+  }
 }
-
 .logo {
   margin-top: -15px;
 }
-
 .line1 {
   border-top: 1px solid black;
 }
-
 .line2 {
   border-top: 1px solid black;
   margin-top: 5px;
@@ -56,41 +39,33 @@
 .main-div {
   margin-top: 59px;
 }
-
 .line3 {
   border-top: 1px solid black;
   margin-top: 59px;
 }
-
 .footer-text {
   margin-top: 59px;
   display: flex;
   justify-content: center;
 }
-
 .gap-footer {
   margin-top: 57px;
 }
 
 /* Article Page */
 .col-sm {
-  /* border: 1px solid rgb(14, 13, 13); */
   height: 388px;
   width: 250px;
-
 }
-
-.check-main-box {
+.top-news {
   margin-top: 89px;
   color: red;
+  font-family: "Inria Sans";
 }
-
-.empty-box {
+.article-box {
   margin-top: 40px;
 }
-
 .container-1 {
-  /* border: 1px solid red; */
   height: 400px;
   margin-top: 100px;
 }
@@ -99,31 +74,24 @@
 .main-input-btn {
   margin-top: 50px;
 }
-
 .input-btn {
   display: flex;
   justify-content: center;
 }
-
 .search-icon {
   height: 32px;
   width: 32px;
   position: absolute;
   margin-left: -278px;
   margin-top: 15px;
-
 }
-
 .search-bar {
   width: 267px;
   height: 60px;
   font-size: 20px;
   border: 1px solid #d1c4c4;
-  /* margin-left:20px; */
   padding-left: 45px;
-
 }
-
 .go-btn {
   width: 61px;
   height: 60px;
@@ -132,46 +100,35 @@
   font-size: 20px;
   border: none;
 }
-
 .box {
   display: flex;
   flex-wrap: wrap;
 }
-
 .image {
   width: 250px;
   height: 130px;
 }
-
-.h4-tag {
+.title {
   color: var(--Dark, #3C3030);
   font-family: "Inknut Antiqua";
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
-  line-height: 120%; /* 21.6px */
-  letter-spacing: -0.72px;
   width: 250px;
   margin-top: 16px;
-
 }
-
 .paragrap {
-  /* font-size: 16px; */
   width: 250px;
   color: var(--Dark, #3C3030);
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 140%;
+  font-size: 16px;
+  font-family: "Inter ";
 }
 .read-article {
   text-decoration: none;
   color: black;
-  /* color: var(--Dark, #3C3030); */
-font-family: "Inria Sans";
+  color: var(--Dark, #3C3030);
+  font-family: "Inria Sans";
 }
-.arrow{
+.arrow {
   color: #E84848;
+  margin-left: 10px;
 }

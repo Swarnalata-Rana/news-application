@@ -1,23 +1,15 @@
-"use client"
 import React from 'react';
 import EastIcon from '@mui/icons-material/East';
 
-
 const Article = ({ props }) => {
-  return (
-    <div key={props.id} className="col-sm">
-      <div className='h4-tag'>
-        <img src={props.url} alt={props.name} />
-      </div>
-      <div>
-        <h3 className='h4-tag'>{props.name}</h3>
-        <p className='paragrap'>{props.description}</p>
-      </div>
-      <span className='read-article'>Read full article </span>
-      <a className='arrow'><EastIcon/></a>
-
-    </div>
-  );
+    return (
+        <div key={props.id} className="col-sm">
+            <img className='image' src={props.url} alt={props.name} />
+            <h4 className='title'>{props.name}</h4>
+            <p className='paragrap'>{props.description}</p>
+            <span className='read-article'>{props.new_page}</span>
+            <a className='arrow' href='read_full_article'><EastIcon/></a>
+        </div>
+    );
 };
-
 export default Article;

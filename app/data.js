@@ -5,7 +5,9 @@ export const articles_data = [
         description: "The first one read, “India's loss in the 2023 World Cup final has echoes of West Indies' defeat in the 1983 World Cup final.” The parallels are .....",
         language: "Hindi",
         country: "in",
-        url:"img1.png"
+        url:"img1.png",
+        new_page:"Read full article",
+        arrow:"<EastIcon/>"
     },
     {
         id: "1",
@@ -13,7 +15,8 @@ export const articles_data = [
         description: "Chandrayaan-3's exploration of the lunar south pole signifies a new era in India's space endeavors.This achievement presents an opportunity ...",
         language: "Hindi",
         country: "in",
-        url:"img2.png"
+        url:"img2.png",
+        new_page:"Read full article"
     },
     {
         id: "2",
@@ -21,7 +24,8 @@ export const articles_data = [
         description: "In April 2023, India's population is expected to reach 1,425,775,850 people, matching and then surpassing the population of mainland China ( ...",
         language: "Hindi",
         country: "in",
-        url:"img3.png"
+        url:"img3.png",
+        new_page:"Read full article"
     },
     {
         id: "3",
@@ -29,7 +33,8 @@ export const articles_data = [
         description:"The 80-year-old liquor magnate is chairman of the $380 million (revenue) Delhi-based Radico Khaitan, best known for such beverages as 8 PM ...",
         language: "Hindi",
         country: "in",
-        url:"img4.png"
+        url:"img4.png",
+        new_page:"Read full article"
     },
     {
         id: "4",
@@ -37,7 +42,8 @@ export const articles_data = [
         description: "As the year 2023 comes to a close, Google has once again revealed the most searched personalities in India. From Bollywood stars to cricket......",
         language: "Hindi",
         country: "in",
-        url:"img5.png"
+        url:"img5.png",
+        new_page:"Read full article"
     },
     {
         id: "5",
@@ -45,7 +51,8 @@ export const articles_data = [
         description: "Mango pickle was the most searched recipe in India in 2023. The traditional Indian condiment, made with raw, unripe green mangoes, spices...",
         language: "de",
         country: "in",
-        url:"img6.png"
+        url:"img6.png",
+        new_page:"Read full article"
     },
     {
         id: "6",
@@ -53,7 +60,8 @@ export const articles_data = [
         description: "Peace will not come without acknowledging state complicity and making reparations, all while ensuring safety for the Zo community.",
         language: "Hindi",
         country: "in",
-        url:"img7.png"
+        url:"img7.png",
+        new_page:"Read full article"
     },
     {
         id: "7",
@@ -61,7 +69,8 @@ export const articles_data = [
         description: "The workers were stuck for two weeks after a part of a tunnel they were working in collapsed.",
         language: "Hindi",
         country: "in",
-        url:"img8.png"
+        url:"img8.png",
+        new_page:"Read full article"
     },
     {
         id: "8",
@@ -69,7 +78,8 @@ export const articles_data = [
         description: "More than 50 bodies remain unclaimed a month after a deadly train crash killed at least 293 people in India. The accident took place on 2 ...",
         language: "Odia",
         country: "in",
-        url:"img9.png"
+        url:"img9.png",
+        new_page:"Read full article"
     }
 
 ]
