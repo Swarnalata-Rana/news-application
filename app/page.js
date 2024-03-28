@@ -2,7 +2,7 @@
 import Header from "./Header";
 import Search from "./Search";
 import Footer from "./Footer";
-import Articles_grid from './Articles_grid';
+import News_Articles from './News_Articles';
 
 const Page = () => {
     return (
@@ -10,7 +10,7 @@ const Page = () => {
             <Header/>
             <div className='container'>
                 <Search/>
-                <Articles_grid/>
+                <News_Articles/>
             </div>
             <Footer/>
         </>

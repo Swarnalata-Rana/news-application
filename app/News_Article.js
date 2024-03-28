@@ -1,7 +1,7 @@
 import React from 'react';
 import EastIcon from '@mui/icons-material/East';
 
-const Article = ({ props }) => {
+const News_Article = ({ props }) => {
     return (
         <div key={props.id} className="col-sm">
             <img className='image' src={props.url} alt={props.name} />
@@ -12,4 +12,4 @@ const Article = ({ props }) => {
         </div>
     );
 };
-export default Article;
+export default  News_Article;

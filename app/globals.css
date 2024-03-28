@@ -23,7 +23,18 @@
   .container {
     width: 365px;
   }
+  .logo{
+    width: 34px;
+    height: 34px;
+  }
+  .col-sm{
+    margin-top: 60px;
+  }
+  .article-box{
+    margin-top: -40px;
+  }
 }
+
 .logo {
   margin-top: -15px;
 }
@@ -54,8 +65,8 @@
 
 /* Article Page */
 .col-sm {
-  height: 388px;
-  width: 250px;
+  width: 100%;
+  /* padding: 20px; */
 }
 .top-news {
   margin-top: 89px;
@@ -63,7 +74,8 @@
   font-family: "Inria Sans";
 }
 .article-box {
-  margin-top: 40px;
+  /* margin-top: 40px; */
+
 }
 .container-1 {
   height: 400px;
@@ -105,19 +117,19 @@
   flex-wrap: wrap;
 }
 .image {
-  width: 250px;
-  height: 130px;
+  width: 100%;
 }
 .title {
   color: var(--Dark, #3C3030);
   font-family: "Inknut Antiqua";
   font-size: 18px;
   font-weight: 600;
-  width: 250px;
+  width: 100%;
+
   margin-top: 16px;
 }
 .paragrap {
-  width: 250px;
+  width: 100%;
   color: var(--Dark, #3C3030);
   font-size: 16px;
   font-family: "Inter ";
