@@ -28,7 +28,7 @@
     height: 34px;
   }
   .col-sm{
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
   .article-box{
     margin-top: -40px;
@@ -74,7 +74,7 @@
   font-family: "Inria Sans";
 }
 .article-box {
-  /* margin-top: 40px; */
+  margin-top: 40px;
 
 }
 .container-1 {
