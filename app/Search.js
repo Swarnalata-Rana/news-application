@@ -4,7 +4,9 @@ import React, { useState } from 'react';
 const Search = () => {
     const [searchInput, setSearchInput] = useState('');
 
-
+    const handleSearchInputChange = (event) => {
+        setSearchInput(event.target.value);
+    };
     const handleSearch = () => {
         fetch(`https://newsapi.org/v2/everything?q=${searchInput}&apiKey=4ec780570c234ab1a4bf02f7fec5516a`)
             .then(response => response.json())
@@ -25,7 +27,7 @@ const Search = () => {
                         placeholder="Search"
                         value={searchInput}
                         className='search-bar'
-                        onChange={(event)=>setSearchInput(event.target.value)}
+                        onChange={handleSearchInputChange}
                     />
                     <button type="button" onClick={handleSearch} className='go-btn'>Go</button>
                 </div>
