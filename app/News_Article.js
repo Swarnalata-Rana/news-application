@@ -12,4 +12,4 @@ const News_Article = ({ props }) => {
         </div>
     );
 };
-export default  News_Article;
+export default  News_Article; 
